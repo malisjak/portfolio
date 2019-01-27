@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">			
+			<!-- ************** Zaglavlje / početak ************** -->
+			<div class="row zaglavlje">
+				<div class="col">
+					<a href="index.html">Portfolio</a>
+					<p>Marija Lisjak</p>
+				</div>
+			</div>
+			<!-- ************** Zaglavlje / kraj ************** -->
+			
+			<!-- ************** Navigacija / početak ************** -->
+			<div class="row navigacija">
+				<div class="col">
+					<div class="hamburger">
+						<span class="fas fa-bars"></span>
+					</div>
+					<ul class="main-menu">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="o_meni.html">O meni</a></li>
+						<li><a href="moji_radovi.html">Moji radovi</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- ************** Navigacija / kraj ************** -->
+									
+			<!-- ************** Galerija / početak ************** -->
+			<div class="row galerija">
+				<div class="col-12">
+					<h1>Fotografije</h1>
+				</div>
+				
+				<!-- ************** Prva slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="moje-slike/moji-radovi-1.jpg" data-lightbox="galerija" class="naziv-rada">CROM 2012</a>
+							<a href="" class="kategorija">Modna revija u Rumunjskoj</a>
+						</p>
+					</div>
+					<img src="moje-slike/moji-radovi-1.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Prva slika / kraj ************** -->
+				
+				<!-- ************** Druga slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="moje-slike/moji-radovi-2.jpg" data-lightbox="galerija" class="naziv-rada">stručno usavršavanje</a>
+							<a href="" class="kategorija">London college fashion</a>						
+						</p>
+					</div>
+					<img src="moje-slike/moji-radovi-2.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Druga slika / kraj ************** -->
+				
+				<!-- ************** Treća slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="moje-slike/moji-radovi-3.jpg" data-lightbox="galerija" class="naziv-rada">siluete</a>
+							<a href="" class="kategorija">Rumunjska 2012</a>
+						</p>
+					</div>
+					<img src="moje-slike/moji-radovi-3.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Treća slika / kraj ************** -->
+				
+				
+				<!-- ************** Četvrta slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="moje-slike/moji-radovi-4.jpg" data-lightbox="galerija" class="naziv-rada">izrada kolekcije</a>
+							<a href="" class="kategorija">London college fashion</a>
+						</p>
+					</div>
+					<img src="moje-slike/moji-radovi-4.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Četvrta slika / kraj ************** -->				
+			</div>
+			<!-- ************** Galerija / kraj ************** -->
+			
+			<!-- ************** Galerija / početak ************** -->
+			<div class="row galerija">
+				<div class="col-12">
+					<h1>Video</h1>
+				</div>
+				<div class="row">
+					<!-- ************** Prvi video / početak ************** -->
+					<div class="col-12 col-md-6">
+						<video width="100%" controls>
+							<source src="moj-video/fashion-show.mp4" type="video/mp4">						
+							Your browser does not support HTML5 video.
+						</video>
+					</div>
+					<!-- ************** Prvi video / kraj ************** -->
+									
+				</div>						
+			</div>
+			<!-- ************** Galerija / kraj ************** -->
+			
+		
+		
+			<!-- ************** Footer / početak ************** -->
+			<div class="row footer">
+				<div class="col">
+					<div class="footer-content">
+						<ul>
+							<li><a href="index.html">Početka</a></li>
+							<li><a href="o_meni.html">O meni</a></li>
+							<li><a href="moji_radovi.html">Moji radovi</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+						<p>Izradila: Marija Lisjak, 2018.</p>
+					</div>
+				</div>
+			</div>
+			<!-- ************** Footer / kraj ************** -->
+		</div>
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
+	</body>
+</html>
